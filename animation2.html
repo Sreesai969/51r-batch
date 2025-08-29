@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Eclipse Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ff8c00, #8b4513); 
+        }
+
+        .sun-container {
+            position: relative;
+            width: 100px; 
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ffd700; 
+            box-shadow: 0 0 50px rgba(255, 215, 0, 0.8); 
+            overflow: hidden; 
+        }
+
+        .moon {
+            position: relative;
+            width: 200%;
+            height: 200%;
+            background-color: orange;
+            border-radius: 50%;
+            box-shadow: 0 0 50px 10px rgba(255, 166, 0, 0.216);
+    
+        }
+
+        @keyframes eclipse {
+            0% {
+                transform: translate(-50%, -50%); 
+            }
+            50% {
+                transform: translate(-50%, -50%); 
+            }
+            100% {
+                transform: translate(-50%, -50%); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sun-container">
+        <div class="moon"></div>
+    </div>
+</body>
+</html>

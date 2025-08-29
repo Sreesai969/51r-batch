@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Page</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 50px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .menu {
+      flex: 1;
+      margin-right: 40px;
+    }
+
+    .menu h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+  .menu-item {
+      margin-bottom: 25px;
+    }
+
+    .menu-item h2 {
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+
+    .menu-item p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .menu-item span {
+      float: right;
+      font-weight: bold;
+    }
+
+    .image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Menu Section -->
+    <div class="menu">
+      <h1>Our Menu</h1>
+
+      <div class="menu-item">
+        <h2>Bread Basket <span>5.50</span></h2>
+        <p>Assortment of fresh baked fruit breads and muffins</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Honey Almond Granola with Fruits <span>7.00</span></h2>
+        <p>Natural cereal of honey toasted oats, raisins, almonds and dates</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Belgian Waffle <span>7.50</span></h2>
+        <p>Vanilla flavored batter with malted flour</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Scrambled Eggs <span>7.50</span></h2>
+        <p>Scrambled eggs, roasted red pepper and garlic, with green onions</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Blueberry Pancakes <span>8.50</span></h2>
+        <p>With syrup, butter and lots of berries</p>
+      </div>
+    </div>
+ <div class="image">
+      <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="Menu Food">
+    </div>
+  </div>
+</body>
+</html>

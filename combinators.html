@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+     .outer p{
+      color: darkblue;
+      font-weight: bold;
+    }
+    .middle > p{
+      background-color: lightyellow;
+      font-size: x-large;
+    }
+    p + span{
+      color: crimson;
+      font-style: italic;
+    }
+    p ~ span{
+      background-color: aqua;
+    }
+    article span{
+      background-color: lightgreen;
+      color: red;
+    }
+    article p{
+      background-color: blueviolet;
+    }
+    article + p{
+      color:green;
+    }
+
     </style>
 </head>
 <body>
